@@ -32,14 +32,33 @@ filters.command("start")
 async def start_command(client, message: Message):
   await message.reply_photo(
                             photo = f"https://telegra.ph/file/fff2ee6f504bc061cb7d3.jpg",
-                            caption = f"ʜᴇʏ, ᴛʜɪs ɪs ᴀ sɪᴍᴘʟᴇ ʙᴀɴ ᴀʟʟ ʙᴏᴛ ᴡʜɪᴄʜ ɪs ʙᴀsᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ʟɪʙᴇʀᴀʀʏ ᴛᴏ ʙᴀɴ ᴏʀ ᴅᴇsᴛʀᴏʏ ᴀʟʟ ᴛʜᴇ ᴍᴇᴍʙᴇʀs ғʀᴏᴍ ᴀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ɪɴ ᴀ ғᴇᴡ  sᴇᴄᴏɴᴅs!\n\nᴛᴏ ᴄʜᴇᴄᴋ ᴍʏ ᴀʙɪʟɪᴛʏ ɢɪʙ me ғᴜʟʟ ᴘᴏᴡᴇʀs\n\nᴛʏᴘᴇ /ʙᴀɴᴀʟʟ ᴛᴏ ꜱᴇᴇ ᴍᴀɢɪᴄ ɪɴ ɢʀᴏᴜᴘ.",
+                            caption = f"╭────── ˹ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ˼ ──────⏤͟͟͞͞★
+┆● ʜᴇʏ ɪ ᴀᴍ ʙᴀɴ-ᴀʟʟ ʙᴏᴛ
+┆● ᴡɪᴛʜ ᴘᴏᴡᴇʀғᴜʟ ғᴇᴀᴛᴜʀᴇs
+╰─────────────────────────
+──────────────────────────
+❖ ɪ ᴀᴍ ᴀ ᴠᴇʀʀʏ ᴘᴏᴡᴇʀ ғᴜʟʟ ʙᴀɴᴀʟʟ ʙᴏᴛ
+ᴀɴʏ ɢʀᴘ ᴄᴀɴ ʙʟᴏᴡ ᴜᴘ ɪɴ ᴊᴜsᴛ ᴀ ғᴇᴡ sᴇᴄᴏɴᴅs
+ᴀᴅᴅ ᴍᴇ ᴀɴʏ ɢʀᴏᴜᴘ ᴀɴᴅ ɢɪᴠᴇ ʙᴀɴ ᴘᴏᴡᴇʀ
+──────────────────────────
+❖ ᴜꜱᴇ » /banall ᴛᴏ sᴇᴇ ᴍᴀɢɪᴄ ɪɴ ɢʀᴏᴜᴘ
+──────────────────────────",
   reply_markup=InlineKeyboardMarkup(
             [
-                [
-                    InlineKeyboardButton(
-                        "ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER}")
-                ]       
-           ]
+        InlineKeyboardButton(
+            text=" ᴀᴅᴅ ᴍᴇ ᴛᴏ ғᴜᴄᴋ ɢʀᴏᴜᴘ ", url=f"https://t.me/BanallXUltraBot?startgroup=true", 
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url=f"t.me/betluckers"),
+        InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"t.me/legitxsupport"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇs", url=f"t.me/LegitXUpdates"),
+    ],
+    [
+        InlineKeyboardButton(text="ᴏᴜʀ ɴᴇᴛᴡᴏʀᴋ", url=f"t.me/Legit_Networks"),
+    ],
+     
+]
       )
 )
 
